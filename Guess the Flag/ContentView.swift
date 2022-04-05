@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @State private var showingScore = false
     
-    @State private var scoreTitle = ""
+    @State private var scoreTitle = "five"
     
     var countries = ["Estonia", "France", "Germany", "Ireland", "Italy", "Nigeria", "Poland", "Russia", "Spain", "UK", "US"].shuffled()
     
